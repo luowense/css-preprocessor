@@ -1,0 +1,22 @@
+@mixin ring($radius, $width, $height, $top, $left){
+    border: solid 7px gold;
+    border-radius: $radius; 
+    width: $width; 
+    height: $height;
+    box-shadow: black 10px 10px 10px;
+    margin-top: $top;
+    margin-left: $left;
+}
+
+.all-rings{
+    display: flex;
+    margin-left: 25vh;
+    margin-top: 250px;
+}
+
+
+@for $i from 1 through 7 {
+    .ring-#{$i}{
+        @include ring(50px * $i, 25px * $i, 25px * $i, -10px * $i, -25px);
+    }
+}
