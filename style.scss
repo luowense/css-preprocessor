@@ -1,3 +1,6 @@
+body{
+    font-family: 'MedievalSharp';
+}
 @mixin ring($radius, $width, $height, $top, $left){
     border: solid 7px gold;
     border-radius: $radius; 
@@ -10,8 +13,8 @@
 
 .all-rings{
     display: flex;
-    margin-left: 25vh;
-    margin-top: 250px;
+    margin-left: 8vh;
+    margin-top: 180px;
 }
 
 
@@ -19,4 +22,57 @@
     .ring-#{$i}{
         @include ring(50px * $i, 25px * $i, 25px * $i, -10px * $i, -25px);
     }
+}
+
+nav, .menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+}
+
+.menu li{
+    list-style-type: none;
+    margin-right: 18px;
+    font-family: 'MedievalSharp';
+}
+
+footer{
+    margin-top: 120px;
+    background-color: orange;
+}
+
+footer li{
+    list-style-type: none;
+    
+}
+
+.all-rings{
+    display: flex;
+    justify-content: center;
+}
+
+.title-ring, .main-ring{
+    display: flex;
+}
+
+.title-ring{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;  
+}
+
+.ring-title{
+    @include ring(50px, 25px, 25px, -10px, -25px);
+}
+
+.main-ring{
+    margin-top: 80px; 
+    display: flex;
+    justify-content: center; 
+
+}
+
+.big-ring{
+    @include ring(200px, 100px, 100px, -20px, 0px);
+    margin-right: 10px;
 }

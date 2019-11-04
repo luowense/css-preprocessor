@@ -1,85 +1,126 @@
-.all-rings {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 25vh;
-  margin-top: 250px;
+body {
+  font-family: "MedievalSharp";
 }
-
+.all-rings {
+  display: flex;
+  margin-left: 8vh;
+  margin-top: 180px;
+}
 .ring-1 {
   border: solid 7px gold;
   border-radius: 50px;
   width: 25px;
   height: 25px;
-  -webkit-box-shadow: black 10px 10px 10px;
-          box-shadow: black 10px 10px 10px;
+  box-shadow: black 10px 10px 10px;
   margin-top: -10px;
   margin-left: -25px;
 }
-
 .ring-2 {
   border: solid 7px gold;
   border-radius: 100px;
   width: 50px;
   height: 50px;
-  -webkit-box-shadow: black 10px 10px 10px;
-          box-shadow: black 10px 10px 10px;
+  box-shadow: black 10px 10px 10px;
   margin-top: -20px;
   margin-left: -25px;
 }
-
 .ring-3 {
   border: solid 7px gold;
   border-radius: 150px;
   width: 75px;
   height: 75px;
-  -webkit-box-shadow: black 10px 10px 10px;
-          box-shadow: black 10px 10px 10px;
+  box-shadow: black 10px 10px 10px;
   margin-top: -30px;
   margin-left: -25px;
 }
-
 .ring-4 {
   border: solid 7px gold;
   border-radius: 200px;
   width: 100px;
   height: 100px;
-  -webkit-box-shadow: black 10px 10px 10px;
-          box-shadow: black 10px 10px 10px;
+  box-shadow: black 10px 10px 10px;
   margin-top: -40px;
   margin-left: -25px;
 }
-
 .ring-5 {
   border: solid 7px gold;
   border-radius: 250px;
   width: 125px;
   height: 125px;
-  -webkit-box-shadow: black 10px 10px 10px;
-          box-shadow: black 10px 10px 10px;
+  box-shadow: black 10px 10px 10px;
   margin-top: -50px;
   margin-left: -25px;
 }
-
 .ring-6 {
   border: solid 7px gold;
   border-radius: 300px;
   width: 150px;
   height: 150px;
-  -webkit-box-shadow: black 10px 10px 10px;
-          box-shadow: black 10px 10px 10px;
+  box-shadow: black 10px 10px 10px;
   margin-top: -60px;
   margin-left: -25px;
 }
-
 .ring-7 {
   border: solid 7px gold;
   border-radius: 350px;
   width: 175px;
   height: 175px;
-  -webkit-box-shadow: black 10px 10px 10px;
-          box-shadow: black 10px 10px 10px;
+  box-shadow: black 10px 10px 10px;
   margin-top: -70px;
   margin-left: -25px;
 }
-/*# sourceMappingURL=style.css.map */
+nav,
+.menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: orange;
+}
+.menu li {
+  list-style-type: none;
+  margin-right: 18px;
+  font-family: "MedievalSharp";
+}
+footer {
+  margin-top: 120px;
+  background-color: orange;
+}
+footer li {
+  list-style-type: none;
+}
+.all-rings {
+  display: flex;
+  justify-content: center;
+}
+.title-ring,
+.main-ring {
+  display: flex;
+}
+.title-ring {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.ring-title {
+  border: solid 7px gold;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  box-shadow: black 10px 10px 10px;
+  margin-top: -10px;
+  margin-left: -25px;
+}
+.main-ring {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.big-ring {
+  border: solid 7px gold;
+  border-radius: 200px;
+  width: 100px;
+  height: 100px;
+  box-shadow: black 10px 10px 10px;
+  margin-top: -20px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
